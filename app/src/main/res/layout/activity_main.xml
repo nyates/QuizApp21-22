@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Pi is equal to 3"
         android:id="@+id/questionTV"
+        android:textSize="40sp"
         />
 
     <LinearLayout
@@ -23,14 +24,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TRUE"
-            android:id="@+id/trueBTN" />
+            android:id="@+id/trueBTN"
+            android:textSize="40sp"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="FALSE"
-            android:id="@+id/falseBTN" />
+            android:id="@+id/falseBTN"
+            android:textSize="40sp"/>
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISHED"
+        android:id="@+id/finishedBTN"
+        android:textSize="40sp"
+        />
 
 </LinearLayout>
