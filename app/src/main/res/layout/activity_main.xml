@@ -39,8 +39,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FINISHED"
-        android:id="@+id/finishedBTN"
+        android:text="NEXT"
+        android:id="@+id/nextBTN"
         android:textSize="40sp"
         />
 
